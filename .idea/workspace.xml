@@ -22,107 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c70bca89-b02e-45b4-9bed-b9ba337d4043" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/art-team-web-tests/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art-team-web-tests/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art-team-web-tests/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art-team-web-tests/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art-team-web-tests/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art-team-web-tests/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art-team-web-tests/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art-team-web-tests/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art-team-web-tests/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art-team-web-tests/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art-team-web-tests/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art-team-web-tests/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art-team-web-tests/src/config/send_file" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art-team-web-tests/src/config/users.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art-team-web-tests/src/data/file_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art-team-web-tests/src/data/file_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art-team-web-tests/src/data/file_3.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art-team-web-tests/src/data/file_4.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art-team-web-tests/src/data/file_5.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art-team-web-tests/src/resouses/allure.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art-team-web-tests/src/resouses/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art-team-web-tests/src/test/drivers/IEDriverServer.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art-team-web-tests/src/test/drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art-team-web-tests/src/test/drivers/linux/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art-team-web-tests/src/test/drivers/linux/geckodriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art-team-web-tests/src/test/java/ru/stqa/pft/art_team/appmanager/ApplicationManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art-team-web-tests/src/test/java/ru/stqa/pft/art_team/appmanager/BaseHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art-team-web-tests/src/test/java/ru/stqa/pft/art_team/appmanager/CV_page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art-team-web-tests/src/test/java/ru/stqa/pft/art_team/appmanager/SessionHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art-team-web-tests/src/test/java/ru/stqa/pft/art_team/locators/Keycloak_locators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art-team-web-tests/src/test/java/ru/stqa/pft/art_team/tests/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/art-team-web-tests/src/test/java/ru/stqa/pft/art_team/tests/TestMyCV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/addressbook-web-tests.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/build/reports/tests/test/css/base-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/build/reports/tests/test/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/build/reports/tests/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/build/reports/tests/test/js/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/build/test-results/test/binary/output.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/build/test-results/test/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/config/send_file" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/config/users.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/data/file_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/data/file_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/data/file_3.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/data/file_4.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/data/file_5.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/resouses/allure.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/resouses/testng.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/drivers/IEDriverServer.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/drivers/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/drivers/linux/chromedriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/drivers/linux/geckodriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/ApplicationManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/GroupHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/HelperBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/NavigationHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/SessionHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/model/ContactData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/model/GroupData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/ContactCreationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/ContactModificationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/GroupCreationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/GroupDeletionTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/GroupModificationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/TestBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/art_team/appmanager/ApplicationManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/art_team/appmanager/BaseHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/art_team/appmanager/CV_page.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/art_team/appmanager/SessionHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/art_team/locators/Keycloak_locators.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/art_team/tests/TestBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/art_team/tests/TestMyCV.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/send_file/appmanager/ApplicationManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/send_file/appmanager/BaseHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/send_file/appmanager/MyFile_page.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/send_file/appmanager/RequestFile_page.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/send_file/appmanager/SendFile_page.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/send_file/appmanager/SessionHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/send_file/locators/Locators.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/send_file/tests/TestBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/send_file/tests/TestFiles.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/send_file/tests/TestLogin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/send_file/tests/TestMyFiles.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/send_file/tests/TestRequestFiles.java" beforeDir="false" />
-    </list>
+    <list default="true" id="c70bca89-b02e-45b4-9bed-b9ba337d4043" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -170,16 +70,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="512" y="161" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1633530892230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="512" y="161" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1633530892230" />
-    <state x="815" y="247" key="FileChooserDialogImpl" timestamp="1633531435563">
+    <state x="815" y="247" key="FileChooserDialogImpl" timestamp="1633605363322">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="815" y="247" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1633531435563" />
+    <state x="815" y="247" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1633605363322" />
     <state x="536" y="151" key="SettingsEditor" timestamp="1633530763575">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

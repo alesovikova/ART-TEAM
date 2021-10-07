@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.stqa.pft.art_team.tests.TestLogin" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-07T06:42:16" hostname="ALESOVIKOVA" time="37.321">
+<testsuite name="ru.stqa.pft.art_team.tests.TestLogin" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-07T13:24:48" hostname="ALESOVIKOVA" time="0.895">
   <properties/>
-  <testcase name="test_login_incorrect_username" classname="ru.stqa.pft.art_team.tests.TestLogin" time="37.321"/>
+  <testcase name="test_login_incorrect_username" classname="ru.stqa.pft.art_team.tests.TestLogin" time="0.895"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 39074
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Oct 07, 2021 9:42:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
+  <system-err><![CDATA[]]></system-err>
 </testsuite>

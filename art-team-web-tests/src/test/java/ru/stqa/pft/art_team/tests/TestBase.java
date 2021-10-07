@@ -1,7 +1,7 @@
 package ru.stqa.pft.art_team.tests;
 
-import org.junit.After;
-import org.junit.Before;
+import  org.testng.annotations.AfterSuite;
+import  org.testng.annotations.BeforeSuite;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
@@ -12,12 +12,12 @@ public class TestBase {
 
     protected final ApplicationManager app = new ApplicationManager(BrowserType.CHROME);
 
-    @Before
+    @BeforeSuite
     public void setUp() {
         app.init();
     }
 
-    @After
+    @AfterSuite
     public void tearDown() {
         app.stop();
     }

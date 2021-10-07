@@ -25,7 +25,7 @@ test.doFirst {
     jvmArgs "-javaagent:${configurations.agent.singleFile}"
 }
 
-//test {
-//    useTestNG()
-//}
+test {
+   useTestNG()
+}
 

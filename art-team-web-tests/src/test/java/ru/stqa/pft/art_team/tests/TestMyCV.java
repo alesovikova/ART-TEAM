@@ -1,15 +1,15 @@
 package ru.stqa.pft.art_team.tests;
 
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.testng.annotations.Test;
+import  org.testng.annotations.AfterSuite;
+import  org.testng.annotations.BeforeSuite;
 import org.openqa.selenium.support.Color;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class TestMyCV  extends TestBase {
     String users = "users.json";
 
-    @Before
+    @BeforeSuite
     public void login_as_user() {
         app.getSessionHelper().login(app.getBaseHelper().read_json(users, "username"),
                 app.getBaseHelper().read_json(users, "password"));

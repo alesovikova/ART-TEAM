@@ -1,0 +1,2 @@
+# Art-Team
+auto tests

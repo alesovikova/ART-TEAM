@@ -29,10 +29,11 @@ public class ApplicationManager {
 
         ChromeOptions chromeOptions= new ChromeOptions();
         chromeOptions.addArguments("start-maximized"); // open Browser in maximized mode
+//        chromeOptions.addArguments("--headless");      // open Browser in headless mode
         System.setProperty("webdriver.chrome.driver", "src/test/drivers/chromedriver.exe");
 
         if (browser == BrowserType.CHROME) {
-            wd = new ChromeDriver();
+            wd = new ChromeDriver(chromeOptions);
         } else if (browser == BrowserType.FIREFOX) {
             wd = new FirefoxDriver();
         } else if (browser == BrowserType.IEXPLORE) {
@@ -42,7 +43,6 @@ public class ApplicationManager {
 
         wd.get("https://artteam-pe-team-qa.oo-aps.artezio.net/");
         wd.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        wd.manage().window().setSize(new Dimension(1710, 1000));
         sessionHelper = new SessionHelper(wd);
         baseHelper = new BaseHelper(wd);
         cv_page = new CV_page(wd);

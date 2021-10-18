@@ -8,9 +8,9 @@ ru/stqa/pft/art_team/appmanager/ApplicationManager.java
  ru.stqa.pft.art_team.appmanager.ApplicationManager
 ru/stqa/pft/art_team/tests/TestBase.java
  ru.stqa.pft.art_team.tests.TestBase
-ru/stqa/pft/art_team/tests/TestMyCV.java
- ru.stqa.pft.art_team.tests.TestMyCV
-ru/stqa/pft/art_team/tests/TestLogin.java
- ru.stqa.pft.art_team.tests.TestLogin
 ru/stqa/pft/art_team/appmanager/CV_page.java
  ru.stqa.pft.art_team.appmanager.CV_page
+ru/stqa/pft/art_team/tests/TestLogin.java
+ ru.stqa.pft.art_team.tests.TestLogin
+ru/stqa/pft/art_team/tests/TestMyCV.java
+ ru.stqa.pft.art_team.tests.TestMyCV

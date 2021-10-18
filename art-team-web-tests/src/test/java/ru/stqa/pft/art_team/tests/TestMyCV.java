@@ -9,11 +9,11 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class TestMyCV  extends TestBase {
     String users = "users.json";
 
-    @BeforeSuite
-    public void login_as_user() {
-        app.getSessionHelper().login(app.getBaseHelper().read_json(users, "username"),
-                app.getBaseHelper().read_json(users, "password"));
-    }
+//    @BeforeSuite
+//    public void login_as_user() {
+//        app.getSessionHelper().login(app.getBaseHelper().read_json(users, "username"),
+//                app.getBaseHelper().read_json(users, "password"));
+//    }
 //
 //    @Test
 //    public void test_check_color_active_MyCV_tab() {

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.stqa.pft.art_team.tests.TestLogin" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-10-14T09:31:16" hostname="ALESOVIKOVA" time="3.425">
-  <properties/>
-  <testcase name="test_login_incorrect_password" classname="ru.stqa.pft.art_team.tests.TestLogin" time="1.167"/>
-  <testcase name="test_login_incorrect_username" classname="ru.stqa.pft.art_team.tests.TestLogin" time="0.649"/>
-  <testcase name="test_login_success" classname="ru.stqa.pft.art_team.tests.TestLogin" time="1.465"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

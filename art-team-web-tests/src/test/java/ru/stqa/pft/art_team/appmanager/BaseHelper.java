@@ -5,6 +5,7 @@ import org.json.simple.parser.JSONParser;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
+import ru.stqa.pft.art_team.locators.Keycloak_locators;
 
 import java.io.FileReader;
 
@@ -46,11 +47,11 @@ public class BaseHelper {
         }
     }
 
-    public void switch_language_to_eng(){
-        wd.findElement(By.xpath("//span[text()='ENG']")).click();
+    public void switch_language_to_eng()    {
+        wd.findElement(Keycloak_locators.eng_language_tab).click();
     }
 
-    public void switch_language_to_ru(){
-        wd.findElement(By.xpath("//span[text()='РУС']")).click();
+    public void switch_language_to_ru()    {
+        wd.findElement(Keycloak_locators.ru_language_tab).click();
     }
 }

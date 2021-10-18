@@ -1,5 +1,6 @@
 package ru.stqa.pft.art_team.appmanager;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import ru.stqa.pft.art_team.locators.Keycloak_locators;
@@ -27,4 +28,8 @@ public class CV_page {
         Boolean a =  baseHelper.isElementPresent(By.xpath("//div[@id='summary']/span"));
     }
 
+    public void check_eng_language_of_elements() {
+        String text_tab = wd.findElement(Keycloak_locators.cv_tab).getText();
+        Assert.assertEquals("My CV", text_tab);
+    }
 }

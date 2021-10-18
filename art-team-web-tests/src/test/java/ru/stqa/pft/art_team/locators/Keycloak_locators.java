@@ -13,5 +13,7 @@ public class Keycloak_locators {
     public static By exit_btn = (By.xpath("//button[@class='button exit__button button_theme_primary']"));
 
     //menu tabs
+    public static By eng_language_tab = (By.xpath("//span[text()='ENG']"));
+    public static By ru_language_tab = (By.xpath("//span[text()='РУС']"));
     public static By cv_tab = (By.xpath("//div[@class='menu']/a[1]"));
 }

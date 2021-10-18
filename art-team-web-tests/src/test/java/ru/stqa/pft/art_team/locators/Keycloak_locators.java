@@ -14,6 +14,6 @@ public class Keycloak_locators {
 
     //menu tabs
     public static By eng_language_tab = (By.xpath("//span[text()='ENG']"));
-    public static By ru_language_tab = (By.xpath("//span[text()='РУС']"));
+    public static By ru_language_tab = (By.xpath("//*[@id=\"user-short-info\"]/div[3]/div/div[1]/div/span"));
     public static By cv_tab = (By.xpath("//div[@class='menu']/a[1]"));
 }

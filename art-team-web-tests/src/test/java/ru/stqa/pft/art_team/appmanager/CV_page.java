@@ -32,4 +32,9 @@ public class CV_page {
         String text_tab = wd.findElement(Keycloak_locators.cv_tab).getText();
         Assert.assertEquals("My CV", text_tab);
     }
+
+    public void check_not_eng_language_of_elements() {
+        String text_tab = wd.findElement(Keycloak_locators.cv_tab).getText();
+        Assert.assertNotEquals("My CV", text_tab);
+    }
 }

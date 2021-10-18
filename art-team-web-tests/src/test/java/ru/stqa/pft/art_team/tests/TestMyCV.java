@@ -28,5 +28,8 @@ public class TestMyCV  extends TestBase {
     public void test_check_switch_language() {
         app.getBaseHelper().switch_language_to_eng();
         app.cv_page().check_eng_language_of_elements();
+        app.getBaseHelper().switch_language_to_ru();
+        app.cv_page().check_not_eng_language_of_elements();
     }
 }
+

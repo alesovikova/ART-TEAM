@@ -24,12 +24,12 @@ public class TestMyCV  extends TestBase {
 //        app.getBaseHelper().switch_language_to_eng();
 //        app.cv_page().check_is_block_summary_displayed();
 //    }
-    @Test
-    public void test_check_switch_language() {
-        app.getBaseHelper().switch_language_to_eng();
-        app.cv_page().check_eng_language_of_elements();
-        app.getBaseHelper().switch_language_to_ru();
-        app.cv_page().check_not_eng_language_of_elements();
-    }
+//    @Test
+//    public void test_check_switch_language() {
+//        app.getBaseHelper().switch_language_to_eng();
+//        app.cv_page().check_eng_language_of_elements();
+//        app.getBaseHelper().switch_language_to_ru();
+//        app.cv_page().check_not_eng_language_of_elements();
+//    }
 }
 

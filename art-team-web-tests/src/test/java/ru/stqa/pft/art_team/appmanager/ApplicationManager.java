@@ -17,6 +17,7 @@ public class ApplicationManager {
     private SessionHelper sessionHelper;
     private BaseHelper baseHelper;
     private CV_page cv_page;
+    private Profile_page profile_page;
 
     private String browser;
 
@@ -46,6 +47,7 @@ public class ApplicationManager {
         sessionHelper = new SessionHelper(wd);
         baseHelper = new BaseHelper(wd);
         cv_page = new CV_page(wd);
+        profile_page = new Profile_page(wd);
 
     }
 
@@ -65,13 +67,12 @@ public class ApplicationManager {
         return cv_page;
     }
 
+    public Profile_page profile_page() {return profile_page;}
+
     public void wait_for_page_load(int seconds) {
         new WebDriverWait(wd, seconds).until(
                 webDriver -> ((JavascriptExecutor) webDriver).executeScript("return document.readyState").equals("complete"));
     }
-
-
-
 
 
 }

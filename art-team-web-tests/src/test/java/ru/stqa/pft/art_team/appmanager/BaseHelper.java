@@ -1,13 +1,17 @@
 package ru.stqa.pft.art_team.appmanager;
 
+import org.checkerframework.checker.units.qual.Time;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import ru.stqa.pft.art_team.locators.Keycloak_locators;
 
 import java.io.FileReader;
+import java.util.concurrent.TimeUnit;
 
 public class BaseHelper {
     private WebDriver wd;
@@ -53,5 +57,12 @@ public class BaseHelper {
 
     public void switch_language_to_ru()    {
         wd.findElement(Keycloak_locators.ru_language_tab).click();
+
     }
+
+    public void press_exit_button() {
+        wd.findElement(Keycloak_locators.exit_btn).click();
+    }
+
+
 }

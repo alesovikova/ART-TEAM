@@ -1,16 +1,20 @@
-ru/stqa/pft/art_team/appmanager/SessionHelper.java
- ru.stqa.pft.art_team.appmanager.SessionHelper
-ru/stqa/pft/art_team/locators/Keycloak_locators.java
- ru.stqa.pft.art_team.locators.Keycloak_locators
 ru/stqa/pft/art_team/appmanager/BaseHelper.java
  ru.stqa.pft.art_team.appmanager.BaseHelper
+ru/stqa/pft/art_team/locators/Keycloak_locators.java
+ ru.stqa.pft.art_team.locators.Keycloak_locators
+ru/stqa/pft/art_team/appmanager/CV_page.java
+ ru.stqa.pft.art_team.appmanager.CV_page
+ru/stqa/pft/art_team/appmanager/SessionHelper.java
+ ru.stqa.pft.art_team.appmanager.SessionHelper
 ru/stqa/pft/art_team/appmanager/ApplicationManager.java
  ru.stqa.pft.art_team.appmanager.ApplicationManager
 ru/stqa/pft/art_team/tests/TestBase.java
  ru.stqa.pft.art_team.tests.TestBase
-ru/stqa/pft/art_team/appmanager/CV_page.java
- ru.stqa.pft.art_team.appmanager.CV_page
-ru/stqa/pft/art_team/tests/TestLogin.java
- ru.stqa.pft.art_team.tests.TestLogin
+ru/stqa/pft/art_team/appmanager/Profile_page.java
+ ru.stqa.pft.art_team.appmanager.Profile_page
+ru/stqa/pft/art_team/tests/TestProfile.java
+ ru.stqa.pft.art_team.tests.TestProfile
 ru/stqa/pft/art_team/tests/TestMyCV.java
  ru.stqa.pft.art_team.tests.TestMyCV
+ru/stqa/pft/art_team/tests/TestLogin.java
+ ru.stqa.pft.art_team.tests.TestLogin

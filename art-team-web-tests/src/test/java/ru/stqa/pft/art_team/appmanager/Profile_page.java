@@ -100,10 +100,9 @@ public class Profile_page {
         press_add_contacts_button();               // it needs to change
         sessionHelper.pause(2000);
         press_delete_button();
-        sessionHelper.pause(1000);
         press_agree_button();
+        wd.switchTo().defaultContent();
         press_save_button();
-        sessionHelper.pause(1000);
     }
 
     public void fill_in_contacts_form(String email, String home_phone, String skype, String work_phone) {

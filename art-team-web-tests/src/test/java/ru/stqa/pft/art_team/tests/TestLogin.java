@@ -11,7 +11,7 @@ public class TestLogin extends TestBase {
   String users = "users.json";
 
   @BeforeMethod
-  public void go_to_artteam() {
+  public void go_to_art_team() {
     app.getBaseHelper().go_to_url(app.getBaseHelper().read_json(users, "main_url"));
   }
 

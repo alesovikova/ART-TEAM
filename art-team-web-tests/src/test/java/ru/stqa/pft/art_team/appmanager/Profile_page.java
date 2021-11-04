@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
 import ru.stqa.pft.art_team.locators.Keycloak_locators;
 
+import java.util.Currency;
 import java.util.concurrent.TimeUnit;
 
 public class Profile_page {
@@ -91,7 +92,10 @@ public class Profile_page {
     }
 
     public void press_agree_button() {
-        wd.findElement(Keycloak_locators.agree_button).click();
+        for (String winHandle : wd.getWindowHandles()) {
+            wd.switchTo().window(winHandle);
+            wd.findElement(Keycloak_locators.agree_button).click();
+        }
     }
 
     public void clear_contacts_data()  {
@@ -101,7 +105,6 @@ public class Profile_page {
         sessionHelper.pause(2000);
         press_delete_button();
         press_agree_button();
-        wd.switchTo().defaultContent();
         press_save_button();
     }
 

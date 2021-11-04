@@ -20,6 +20,11 @@ public class Profile_page {
         this.wd = wd;
     }
 
+    public void wait_until_page_loaded(Integer time) {
+        sessionHelper.pause(time);
+    }
+
+
     public void click_edit_btn() {
         wd.findElement(Keycloak_locators.edit_btn).click();
         sessionHelper.pause(1000);

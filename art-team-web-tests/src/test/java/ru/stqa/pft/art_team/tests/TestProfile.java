@@ -2,6 +2,8 @@ package ru.stqa.pft.art_team.tests;
 
 import org.testng.annotations.*;
 
+import java.util.concurrent.TimeUnit;
+
 public class TestProfile extends TestBase {
     String users = "users.json";
 
@@ -11,6 +13,7 @@ public class TestProfile extends TestBase {
         app.getSessionHelper().login_as_autoTest(app.getBaseHelper().read_json(users, "username"),
                 app.getBaseHelper().read_json(users, "password"));
         app.getBaseHelper().go_to_url(app.getBaseHelper().read_json(users, "profile_page"));
+        app.profile_page().wait_until_page_loaded(2000);
     }
 
    @AfterClass
